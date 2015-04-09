@@ -3,6 +3,7 @@ package androhi.com.triedmaterialdesignapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,6 +19,11 @@ public class StartActivity extends ActionBarActivity implements AbsListView.OnIt
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("メニュー");
+        toolbar.setTitleTextColor(getResources().getColor(android.R.color.white));
 
         String[] menuStringArray = getResources().getStringArray(R.array.menu_strings);
         ArrayAdapter<String> adapter =
