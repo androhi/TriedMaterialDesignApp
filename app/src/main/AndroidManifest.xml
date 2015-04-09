@@ -20,6 +20,10 @@
             android:name=".MainActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name=".StyleSampleActivity"
+            android:label="@string/title_activity_style_sample" >
+        </activity>
     </application>
 
 </manifest>

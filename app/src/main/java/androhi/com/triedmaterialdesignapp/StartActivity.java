@@ -59,6 +59,7 @@ public class StartActivity extends ActionBarActivity implements AbsListView.OnIt
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
         switch (position) {
             case 0:
+                startActivity(new Intent(this, StyleSampleActivity.class));
                 break;
             case 1:
                 break;

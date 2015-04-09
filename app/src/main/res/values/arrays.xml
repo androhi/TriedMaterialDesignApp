@@ -7,4 +7,10 @@
         <item>DrawerLayout + Toolbar</item>
     </string-array>
 
+    <string-array name="spinner_strings">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+
 </resources>

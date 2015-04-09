@@ -14,4 +14,5 @@
     <string name="title_activity_start">StartActivity</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_style_sample">StyleSampleActivity</string>
 </resources>
