@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_strings">
+        <item>AppCompat Style</item>
+        <item>CardView + RecyclerView + FloatingActionButton</item>
+        <item>DrawerLayout + Toolbar</item>
+    </string-array>
+
+</resources>
