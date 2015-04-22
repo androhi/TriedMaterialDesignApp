@@ -9,7 +9,6 @@
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        style="@style/Theme.AppCompat.Light.DarkActionBar"
         />
 
     <ListView

@@ -6,4 +6,28 @@
     <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
          https://developer.android.com/design/patterns/navigation-drawer.html -->
     <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <!-- リストアイテムの余白 -->
+    <dimen name="list_item_first_left_margin">16dp</dimen>
+    <dimen name="list_item_second_left_margin">72dp</dimen>
+    <dimen name="list_item_right_margin">16dp</dimen>
+
+    <!-- リストの余白 -->
+    <dimen name="list_vertical_margin">8dp</dimen>
+    <!-- リストの高さ -->
+    <dimen name="list_sigle_line_height">48dp</dimen>
+    <dimen name="list_icon_and_text_height">56dp</dimen>
+    <dimen name="list_two_line_height">72dp</dimen>
+    <dimen name="list_three_line_height">88dp</dimen>
+
+    <!-- ボタンの大きさ -->
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_minimum_width">88dp</dimen>
+
+    <!-- CardViewのコンテンツの余白 -->
+    <dimen name="card_contens_padding">24dp</dimen>
+
+    <!-- SnackBarの大きさ -->
+    <dimen name="snackbar_single_line_height">48dp</dimen>
+    <dimen name="snackbar_multi_line_height">80dp</dimen>
 </resources>

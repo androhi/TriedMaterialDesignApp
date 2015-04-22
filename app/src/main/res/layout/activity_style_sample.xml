@@ -1,123 +1,25 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="androhi.com.triedmaterialdesignapp.StyleSampleActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/label_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:text="Widget.AppCompat.Button"
-            />
         <Button
-            android:id="@+id/button_normal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/label_button"
-            android:layout_marginLeft="8dp"
-            android:text="Button"
-            style="@style/Widget.AppCompat.Button"
-            />
-
-        <TextView
-            android:id="@+id/label_small_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/button_normal"
-            android:layout_marginTop="16dp"
-            android:textSize="12sp"
-            android:text="Widget.AppCompat.Button.Small"
-            />
-        <Button
-            android:id="@+id/button_small"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/label_small_button"
-            android:layout_marginLeft="8dp"
-            android:text="Button"
-            style="@style/Widget.AppCompat.Button.Small"
-            />
-
-        <TextView
-            android:id="@+id/label_switch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/button_small"
-            android:layout_marginTop="16dp"
-            android:textSize="12sp"
-            android:text="Widget.AppCompat.CompoundButton.Switch"
-            />
-        <android.support.v7.widget.SwitchCompat
-            android:id="@+id/switch_compat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/label_switch"
-            android:layout_marginLeft="8dp"
-            />
-
-        <TextView
-            android:id="@+id/label_edit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/switch_compat"
-            android:layout_marginTop="16dp"
-            android:textSize="12sp"
-            android:text="Widget.AppCompat.EditText"
-            />
-        <EditText
-            android:id="@+id/edit_text"
+            android:id="@+id/v7alert_dialog_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/label_edit"
-            android:layout_marginLeft="8dp"
-            android:hint="Hint"
+            android:text="Show v7 AlertDialog"
             />
 
-        <TextView
-            android:id="@+id/label_spinner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/edit_text"
-            android:layout_marginTop="16dp"
-            android:textSize="12sp"
-            android:text="Widget.AppCompat.Spinner"
-            />
-        <Spinner
-            android:id="@+id/spinner_normal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/label_spinner"
-            android:layout_marginLeft="8dp"
-            android:entries="@array/spinner_strings"
-            style="@style/Widget.AppCompat.Spinner"
-            />
-
-        <TextView
-            android:id="@+id/label_spinner_underlined"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/spinner_normal"
-            android:layout_marginTop="16dp"
-            android:textSize="12sp"
-            android:text="Widget.AppCompat.Spinner.Underlined"
-            />
-        <Spinner
-            android:id="@+id/spinner_underlined"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/label_spinner_underlined"
-            android:layout_marginLeft="8dp"
-            android:entries="@array/spinner_strings"
-            style="@style/Widget.AppCompat.Spinner.Underlined"
-            />
-    </RelativeLayout>
+    </LinearLayout>
 
 </ScrollView>
