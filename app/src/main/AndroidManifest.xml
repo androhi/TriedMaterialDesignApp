@@ -24,6 +24,10 @@
             android:name=".StyleSampleActivity"
             android:label="@string/title_activity_style_sample" >
         </activity>
+        <activity
+            android:name=".InterpolatorSampleActivity"
+            android:label="@string/title_activity_interpolator_sample" >
+        </activity>
     </application>
 
 </manifest>

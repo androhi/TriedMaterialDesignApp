@@ -15,4 +15,5 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_style_sample">StyleSampleActivity</string>
+    <string name="title_activity_interpolator_sample">InterpolatorSampleActivity</string>
 </resources>

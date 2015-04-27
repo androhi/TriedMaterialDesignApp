@@ -38,8 +38,11 @@ public class StartActivity extends AppCompatActivity implements AbsListView.OnIt
                 startActivity(new Intent(this, StyleSampleActivity.class));
                 break;
             case 1:
+                startActivity(new Intent(this, InterpolatorSampleActivity.class));
                 break;
             case 2:
+                break;
+            case 3:
                 startActivity(new Intent(this, MainActivity.class));
                 break;
         }

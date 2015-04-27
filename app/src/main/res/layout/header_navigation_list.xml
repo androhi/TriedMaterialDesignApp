@@ -20,6 +20,7 @@
             android:id="@+id/user_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
             android:text="Takahiro Shimokawa"
             />
 
@@ -28,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/user_name"
+            android:textColor="@android:color/white"
             android:text="shimokawa.takahiro@zaim.co.jp"
             />
 
